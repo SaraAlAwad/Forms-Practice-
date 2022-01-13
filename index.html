@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Lev2_2"</title>
+</head>
+
+<body>
+    <!--  Lev 2_2-->
+    <form>
+        <fieldset>
+            <legend>Authentication</legend>
+            <table>
+                <tr>
+                    <td>
+
+                        <form action=""><label for="Email">Email</label><input type="email" name="Email" id="Email"
+                                placeholder="email"></form>
+                    </td>
+                    <td>
+                        <form action=""><label for="password">Password</label><input type="password" name="password"
+                                id="password" placeholder="password">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">submit</button>
+                        <button type="reset">reset</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <!--  Lev 2_3-->
+
+    <form>
+        <fieldset>
+            <legend>Register form</legend>
+            <table>
+                <tr>
+                    <td><label for="name">Name</label>
+                    </td>
+                    <td>
+                        <input type=”text” placeholder=“Name” name="name" id="name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="surname">Surname</label>
+                    </td>
+                    <td>
+                        <input type=”text” placeholder=“surname” name="surname" id="surname" />
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" placeholder=“email” name="email" id="email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td>
+                        <label for="gender">Male</label>
+                        <input type="radio" name="gender" id="">
+                        <label for="gender">Female</label>
+                        <input type="radio" name="gender" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="file">Picture</label>
+                    </td>
+                    <td><input type="file" name="file" id="file" placeholder="Choose file"></td>
+                </tr>
+                <tr>
+                    <td><label for="Country">Country</label></td>
+                    <td>
+                        <select name="Country" id="Country">
+                            <option value="gr">Germany</option>
+                            <option value="sp">Spain</option>
+                            <option value="fr">France</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="lang">Preferred languages</label></td>
+                    <td>
+                        <select name="lang" id="lang" multiple>
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                            <option value="js">JS</option>
+                            <option value="react">React</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Field of activity</p>
+                    </td>
+                    <td><input type="checkbox" id="it" name="it" value="it">
+                        <label for="it"> IT</label>
+                        <input type="checkbox" id="design" name="design" value="design">
+                        <label for="design"> design</label>
+                        <input type="checkbox" id="other" name="other" value="other">
+                        <label for="other"> Other</label>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Send</button>
+                        <button type="reset">Cancel</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+
+
+</body>
+
+</html>
